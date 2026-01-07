@@ -10,4 +10,10 @@ Python for Ethical Hacking
 4. Target - Ubuntu Server (VM)
 
 ## NOTES
-TBD
+
+lab_setup.py - provides a full "snapshot" of the lab environment.
+Function               Output Example (Windows)       Output Example (Linux)
+platform.system()           Windows                        Linux
+platform.release()            10                         5.15.0-generic
+platform.machine()          AMD64                          x86_64
+platform.version()        10.0.19045                    #54-Ubuntu SMP
