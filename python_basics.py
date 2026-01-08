@@ -41,7 +41,7 @@ for i in range(1, 5, 1):
     print("I love ethical hacking!")
 print("*"*10)
 
-# fruit_basket = ["grapes", "apple", "banana", "cherry"]
+fruit_basket = ["grapes", "apple", "banana", "cherry"]
 for fruit in fruit_basket:
     if fruit == "banana":
         continue
