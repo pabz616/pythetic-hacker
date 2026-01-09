@@ -56,7 +56,7 @@ def check_vulnerabilities(response):
         vulnerabilities = check_vulnerabilities(response)
         
         if vulnerabilities:
-            print("Potential vulnerabilities foud:")
+            print("Potential vulnerabilities found:")
             for vuln in vulnerabilities:
                 print(f"-{vuln}")
         else:
