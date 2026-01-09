@@ -4,6 +4,7 @@ DESCRIPTION: A simple DNS resolver that takes a domain name as input and returns
 (Requires 'dnspython' library: pip install dnspython)
 """
 
+
 import dns.resolver
 
 

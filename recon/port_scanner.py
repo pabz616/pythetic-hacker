@@ -3,6 +3,7 @@ SCRIPT: port_scanner.py
 DESCRIPTION: runs a simple port scan of a given IP
 """
 
+
 import socket
 import argparse
 
