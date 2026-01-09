@@ -3,6 +3,7 @@ SCRIPT: recon.who_is
 DESCRIPTION: performs a WHOIS lookup for a given domain or IP address
 """
 
+
 import whois
 
 
@@ -19,6 +20,7 @@ def perform_whois_lookup(target):
     except Exception as e:
         return f"Error performing WHOIS lookup: {e}"
 
-    
-domain = input("Enter a domain or IP address for WHOIS lookup: ")
-perform_whois_lookup(domain)
+
+if __name__ == "__main__":
+    domain = input("Enter a domain or IP address for WHOIS lookup: ")
+    perform_whois_lookup(domain)
