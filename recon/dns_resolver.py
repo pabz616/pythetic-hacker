@@ -28,5 +28,5 @@ def dns_enumerate(domain):
  
     
 if __name__ == "__main__":
-    domain = input("Enter a domain name to resolve (e.g., example.com): ")
+    domain = input("Please enter a domain name to resolve (e.g., example.com): ")
     dns_enumerate(domain)

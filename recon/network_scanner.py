@@ -26,6 +26,6 @@ def scan_network(target, ports):
                 if int(resp.getlayer(ICMP).type) == 3 and int(resp.getlayer(ICMP).code) in [1, 2, 3, 9, 10, 13]:
                     print(f"Port {port}: is Filtered (ICMP response).")
 
-    target = input("Enter the target IP address to scan: ")
+    target = input("Please enter the target IP address to scan: ")
     ports = [21, 22, 80, 443, 3389]
     scan_network(target, ports)
