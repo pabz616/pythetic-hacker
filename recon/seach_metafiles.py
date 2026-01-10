@@ -7,7 +7,6 @@ DESCRIPTION:
 2. Extract and map other information that could lead to a better understanding of the systems at hand.
 """
 
-
 import requests
 
 target = input('Please enter the target URL (e.g., http://example.com): ')

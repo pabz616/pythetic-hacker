@@ -20,13 +20,13 @@ def main():
     parser.add_argument("target", help="Target IP address")
     parser.add_argument("-p", "--ports", type=int, nargs=2, default=[1, 1024], help="Port range to scan (default: 1-1024)")
     args = parser.parse_args()                       
+    
     target_ip = args.target
-
     start_port, end_port = args.ports
     
     print(f"Scanning {target_ip} for open ports...")
     
-    for port in range(start_port, end_port):
+    for port in range(start_port, end_port + 1):
         if scan_port(target_ip, port):
             print(f"Port {port} is open!")        
     
