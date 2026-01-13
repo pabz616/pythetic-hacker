@@ -21,7 +21,8 @@ def wifi_scan():
                 print(f"SSID: {ssid}, BSSID: {bssid}, Channel: {channel}")
                 sniff(prn=packet_handler, timeout=15)
             
-            print("\nScan complete.")
+            print("\n[✓] RESULT: Scan complete.")
+            print(f"Total networks found: {len(networks)}")
             
 
 if __name__ == "__main__":
