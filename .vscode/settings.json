@@ -1,8 +1,5 @@
 {
-    "cSpell.words": [
-        "nmap",
-        "pentest",
-        "pythetic",
-        "whois"
-    ]
+  "cSpell.words": ["nmap", "pentest", "pythetic", "whois"],
+  "snyk.advanced.organization": "da41c350-f466-4c5b-9a5b-1b7ef925daad",
+  "snyk.advanced.autoSelectOrganization": true
 }
